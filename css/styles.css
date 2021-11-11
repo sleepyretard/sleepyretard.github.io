@@ -1,0 +1,50 @@
+table {
+    border-width: 2px;
+    border-style: solid;
+    border-color: brown;
+    border-image: initial;
+    border-spacing: 2px;
+    margin: 0px auto;
+}
+
+td {
+    display: table-cell;
+    border-top: 2px solid burlywood;
+    border-left: 2px solid burlywood;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+    background-color:bisque;
+}
+
+h2 {
+    color: orangered;
+    text-align: center;
+}
+
+h1 {
+    color: darkred;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: gainsboro;
+    display: block;
+    margin: 8px auto;
+}
+
+.code {
+    font-family: "Lucida Console", Courier, monospace;
+    background-color: beige;
+}
+
